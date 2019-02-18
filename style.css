@@ -1,0 +1,32 @@
+body {
+	margin: 0px;
+	background-color: #000000de;
+	color: white;
+	font-family: 'Open Sans', sans-serif;
+}
+
+html, body {
+	height: 100%;
+}
+
+#res-pai {
+	display: flex; /* pai vira flex */
+	flex-wrap: wrap;
+	align-items: center;
+	justify-content: center;
+	height: 100%;
+}
+
+#res {
+	overflow: hidden;
+	background-color: white;
+	color: black;
+	padding: 5px;
+	border-radius: 5px;
+	width: 70%;
+}
+
+::selection {
+	background-color: #000000de;
+	color: white;
+}
